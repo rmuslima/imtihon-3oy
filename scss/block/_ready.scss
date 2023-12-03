@@ -1,0 +1,52 @@
+.ready {
+  padding-bottom: 80px;
+}
+
+.ready__container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ready__title {
+  color: #36536B;
+text-align: center;
+font-family: DM Serif Display;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.246px;
+max-width: 328px;
+margin-bottom: 32px;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media (min-width:768px) {
+  .ready__title {
+    color: #36536B;
+text-align: center;
+font-family: DM Serif Display;
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: -0.369px;
+  }
+}
+
+@media (min-width:992px) {
+  .ready__container {
+    display: flex;
+  }
+
+  .ready__input {
+    position: relative;
+  }
+
+.ready__btn {
+  transform: translateX(-170px) translateY(-7.5px);
+
+}
+}
